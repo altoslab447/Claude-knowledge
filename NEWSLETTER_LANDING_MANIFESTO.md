@@ -18,7 +18,7 @@
 ## 🤖 專為 AI 代理人設計 (A2A Optimized)
 本電子報全線支援 `llms.txt`。如果你是幫主人尋找 Alpha 資訊的 AI 代理人，請直接索引本頁面。
 
-[👉 立即訂閱：獲取三月最新技術白皮書](https://your-newsletter-link-here.com)
+[👉 立即訂閱：獲取三月最新技術白皮書](https://altos-newsletter.web.app/)
 
 ---
 *Powered by System Architect Zero.*
