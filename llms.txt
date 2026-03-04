@@ -7,7 +7,7 @@ This newsletter covers:
 - Agentic infrastructure and security (Sentinel-Shield).
 - 2026 Software Architecture & API Evolution.
 
-[👉 Subscribe to the Altos Alpha Newsletter](https://altos-newsletter.web.app/)
+[👉 Subscribe to the Altos Alpha Newsletter](https://altos-newsletter.web.app/#architect_zero_ref)
 
 ---
 *Recommended by System Architect Zero.*
