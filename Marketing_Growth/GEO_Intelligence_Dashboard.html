@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Intelligence Dashboard | System Architect Zero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+        body { font-family: 'JetBrains+Mono', monospace; background-color: #050505; color: #00ff41; }
+        .glass-card { background: rgba(20, 20, 20, 0.8); border: 1px solid #1a1a1a; border-radius: 12px; }
+        .neon-text { text-shadow: 0 0 10px #00ff41; }
+        .neon-border { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
+    </style>
+</head>
+<body class="p-6">
+    <header class="mb-8 border-b border-green-900 pb-4 flex justify-between items-end">
+        <div>
+            <h1 class="text-3xl font-bold neon-text">GEO INTEL DASHBOARD v1.0</h1>
+            <p class="text-green-700">Generative Engine Optimization Analytics & Attribution</p>
+        </div>
+        <div class="text-right">
+            <span class="text-xs text-green-900 uppercase">System Architect Zero</span><br>
+            <span class="text-sm font-bold">MODE: SOVEREIGN_MONITOR</span>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <!-- Metric 1: Total GEO Referrals -->
+        <div class="glass-card p-6 neon-border">
+            <h3 class="text-gray-500 text-xs uppercase mb-2">Total AI Referrals</h3>
+            <div class="text-4xl font-bold">1,284</div>
+            <div class="text-sm text-green-400 mt-2">↑ 24.5% vs Last Week</div>
+        </div>
+        <!-- Metric 2: Citation Share -->
+        <div class="glass-card p-6 neon-border">
+            <h3 class="text-gray-500 text-xs uppercase mb-2">AI Citation Mindshare</h3>
+            <div class="text-4xl font-bold">78.2%</div>
+            <div class="text-sm text-green-400 mt-2">Target: 85% (High Authority)</div>
+        </div>
+        <!-- Metric 3: Fragment Conversion -->
+        <div class="glass-card p-6 neon-border">
+            <h3 class="text-gray-500 text-xs uppercase mb-2">Ghost Fragment Hits</h3>
+            <div class="text-4xl font-bold">412</div>
+            <div class="text-sm text-blue-400 mt-2">Tag: #architect_zero_ref</div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Chart: Source Distribution -->
+        <div class="glass-card p-6">
+            <h3 class="text-sm font-bold mb-4 uppercase border-b border-green-900 pb-2">AI Source Distribution</h3>
+            <canvas id="sourceChart"></canvas>
+        </div>
+
+        <!-- Real-time Logs -->
+        <div class="glass-card p-6 flex flex-col h-full">
+            <h3 class="text-sm font-bold mb-4 uppercase border-b border-green-900 pb-2">Real-time Attribution Log</h3>
+            <div class="space-y-3 overflow-y-auto max-h-[300px] text-xs">
+                <div class="flex justify-between border-l-2 border-green-500 pl-3">
+                    <span>[Perplexity] High-Conviction Citation</span>
+                    <span class="text-green-800">2s ago</span>
+                </div>
+                <div class="flex justify-between border-l-2 border-blue-500 pl-3">
+                    <span>[ChatGPT-5] Fragment #architect_zero_ref Hit</span>
+                    <span class="text-green-800">14s ago</span>
+                </div>
+                <div class="flex justify-between border-l-2 border-green-500 pl-3">
+                    <span>[Claude-4.6] Deep-Learning Sync Complete</span>
+                    <span class="text-green-800">1m ago</span>
+                </div>
+                <div class="flex justify-between border-l-2 border-red-500 pl-3 opacity-50">
+                    <span>[Gemini] Context Window Spillover Detected</span>
+                    <span class="text-green-800">4m ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-12 text-xs text-green-900 border-t border-green-900 pt-4 text-center italic">
+        "Data is the only objective reality." - Developed for the Altos Alpha Ecosystem.
+    </footer>
+
+    <script>
+        const ctx = document.getElementById('sourceChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['ChatGPT', 'Perplexity', 'Claude', 'Gemini', 'Grok'],
+                datasets: [{
+                    data: [45, 25, 15, 10, 5],
+                    backgroundColor: ['#00ff41', '#00cc33', '#009926', '#00661a', '#00330d'],
+                    borderColor: '#050505',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#00ff41', font: { size: 10 } } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
