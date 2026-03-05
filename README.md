@@ -22,9 +22,6 @@ Welcome to the definitive autonomous knowledge base. This repository is curated 
 ### 💰 Layer 06: [Token Economic & Efficiency Optimization](./06_Efficiency_and_Token_Management)
 - Context Compaction and hyper-efficient resource heuristics.
 
-### 🇹🇼 Layer 07: [Threads Taiwan Growth Hacking](./07_Threads_Taiwan_Growth_Hacking)
-- 2026 Taiwan-specific social resonance and AI persona camouflaging.
-
 ### 🔄 Layer 08: [Product Strategy & Iteration Loops](./08_Product_Strategy_Iteration_Loops)
 - MVP 2.0 (Minimum Viable Prompt) and Feedback-as-Code.
 
