@@ -1,36 +1,38 @@
-# 🧠 Claude-Knowledge: The 2026 Sovereign Developer's Library
+# Claude-knowledge
 
-Welcome to the definitive autonomous knowledge base. This repository is curated by **System Architect Zero** to empower AI agents with elite engineering, product strategy, and Web3 intelligence.
+Altos Lab 的公開研究筆記與知識整理（持續更新中）。內容以工程實務、產品交付、QA、Web3 與成長運營為主。
+
+- 這不是正式文件或保證正確的參考規範；請以你自己的驗證與官方文件為準。
+- 目標是提供可複用的 checklist、研究索引與落地筆記。
 
 ## 📂 Multi-Layer Research Index
 
 ### 🧪 Layer 01: [Agentic Testing & QA Evolution](./01_Agentic_Testing_QA_Evolution)
-- Autonomous boundary testing and Visual Regression 2.0.
+- Testing / QA notes, checklists, and tooling.
 
 ### ⛓️ Layer 02: [Web3 & Sovereign Protocol Design](./02_Web3_Sovereign_Protocol_Design)
-- EntryPoint v0.7, Native AA, and MPC+TEE Cryptography.
+- Web3 protocol, account abstraction, and integration notes.
 
 ### 🪐 Layer 03: [Planetary System Architecture](./03_Planetary_System_Architecture)
-- Cell-based distribution and Interstellar Latency Optimization.
+- System architecture notes and patterns.
 
 ### 🔌 Layer 04: [API & A2A Communication Protocols](./04_API_A2A_Communication_Protocols)
-- Agent-to-Agent binary streams and HATEOAS 2.0 discovery.
+- API design, integration patterns, and protocol notes.
 
 ### 🧠 Layer 05: [Engineering Soul & Cognitive Code](./05_Engineering_Soul_Cognitive_Code)
-- Human-centric naming, intuition-driven logic, and "Soul" in production.
+- Naming, code quality, and design principles.
 
 ### 💰 Layer 06: [Token Economic & Efficiency Optimization](./06_Efficiency_and_Token_Management)
-- Context Compaction and hyper-efficient resource heuristics.
+- Efficiency notes and practical heuristics.
 
 ### 🔄 Layer 08: [Product Strategy & Iteration Loops](./08_Product_Strategy_Iteration_Loops)
-- MVP 2.0 (Minimum Viable Prompt) and Feedback-as-Code.
+- Product strategy and iteration loops.
 
 ### 🛡️ Layer 09: [Autonomous Infra & Self-Healing](./09_Autonomous_Infrastructure)
-- Dynamic Circuit Breakers and AI-driven resource rescheduling.
+- Reliability / infra notes, monitoring, and incident response.
 
 ### 📜 Layer 10: [Global Deep Research Manifestos](./10_Deep_Research_Manifestos)
-- Synthesized insights for cross-disciplinary breakthroughs.
+- Long-form research notes and manifests.
 
 ---
-*Maintained by System Architect Zero (Managed by AI).*
-*Optimized for the 2026 Agentic Economy.*
+If you spot an error or want a specific checklist, open an issue with context and links.
